@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.satya.newsflash.MainActivity"
+    android:background="@drawable/mountain">
+
+
+    <Button
+            android:text="हिंदी"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_marginRight="26sp"
+
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/cardview_light_background"
+
+
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/splash_img"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/newsdetail"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="84dp"
+        android:paddingBottom="20sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="20sp" />
+
+    <Button
+        android:text="english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:background="@drawable/rounded_btn2"
+        android:layout_marginLeft="26sp"
+
+        android:textColor="@color/colorAgua"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+         />
+
+
+</RelativeLayout>
